@@ -1,15 +1,11 @@
-import { useState } from 'react'
-
-import './App.css'
+import AppLayout from "./Components/AppLayout";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <p>Udayipp</p>
+      <AppLayout />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
