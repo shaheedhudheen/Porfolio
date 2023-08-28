@@ -1,5 +1,5 @@
 import Main from "./Main";
-import About from "./about";
+import About from "./About";
 
 const Body = () => {
   return (

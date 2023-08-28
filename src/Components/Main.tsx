@@ -47,8 +47,8 @@ const Main = () => {
   ];
 
   return (
-    <section className="bg-background py-28 px-8 lg:py-48">
-      <div className="max-w-screen-xl mx-auto flex flex-col gap-14">
+    <section className="bg-background h-screen flex items-center">
+      <div className="max-w-5xl mx-auto flex flex-col gap-14">
         <div className="flex flex-col-reverse gap-20 justify-center items-center lg:flex-row ">
           <div className="space-y-7 max-w-lg flex flex-col items-center">
             <h1 className="text-4xl font-bold text-center text-primary md:text-6xl lg:text-left">
@@ -56,7 +56,7 @@ const Main = () => {
             </h1>
             <p className="text-center text-lg text-secondary lg:text-left">
               Hi, I'm Ahammed Shaheedhudheen. A passionate Front-end React
-              Developer based in Kerala, India. 📍
+              Developer based in Kerala, India. 📌
             </p>
             <div className="flex justify-center gap-8 lg:self-start">
               <ImLinkedin size={32} />
