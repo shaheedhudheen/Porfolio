@@ -11,9 +11,14 @@ export default {
       secondary: "#555555",
       tertiary: "##767676",
       background: "#F9F9F9",
-      
     },
     extend: {
+      colors: {
+        primary: "#2D2E32",
+        secondary: "#555555",
+        tertiary: "##767676",
+        background: "#F9F9F9",
+      },
       keyframes: {
         "open-menu": {
           "0%": { transform: "scaleY(0)" },
