@@ -3,7 +3,7 @@ import photoOne from "../assets/photo1.jpg";
 const About = () => {
   return (
     <section id="About">
-      <div className="max-w-2xl lg:max-w-5xl mx-auto grid justify-items-center py-10 px-8 gap-8 lg:grid-cols-2 lg:items-center lg:py-20">
+      <div className="max-w-2xl lg:max-w-5xl mx-auto grid justify-items-center py-10 px-8 gap-8 lg:grid-cols-2 lg:items-center md:py-20 lg:py-36">
         <img
           src={photoOne}
           alt="a photo of computer"

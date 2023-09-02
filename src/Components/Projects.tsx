@@ -25,7 +25,7 @@ const Projects = () => {
             >
               <div className="overflow-hidden scroll-smooth rounded-2xl bg-white h-96 shadow-lg ">
                 <img
-                  src={placeholder}
+                  src={""}
                   alt=""
                   className="hover:-translate-y-1/2 transition-transform duration-[10s] "
                 />
@@ -40,8 +40,12 @@ const Projects = () => {
                 </p>
 
                 <div className="flex gap-8">
-                  <a href="#"><BiLinkExternal size={32}/></a>
-                  <a href="#"><BiLogoGithub size={32}/></a>
+                  <a href="#">
+                    <BiLinkExternal size={32} />
+                  </a>
+                  <a href="#">
+                    <BiLogoGithub size={32} />
+                  </a>
                 </div>
               </div>
             </div>

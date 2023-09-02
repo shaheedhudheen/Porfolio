@@ -13,7 +13,7 @@ const Projects2 = () => {
 
           <div id="project" className="px-8">
             <div className="p4">
-              <img src={image} alt="" />
+              <img src={''} alt="" />
             </div>
           </div>
         </div>
