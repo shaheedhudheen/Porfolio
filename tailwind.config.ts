@@ -10,6 +10,7 @@ export default {
       primary: "#2D2E32",
       secondary: "#555555",
       background: "#F9F9F9",
+      accent: '#2962FF'
     },
     extend: {
       colors: {
@@ -17,6 +18,7 @@ export default {
         secondary: "#555555",
         tertiary: "#767676",
         background: "#F9F9F9",
+        accent: "#2962FF",
       },
       keyframes: {
         "open-menu": {

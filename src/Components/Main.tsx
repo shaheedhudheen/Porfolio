@@ -47,9 +47,9 @@ const Main = () => {
   ];
 
   return (
-    <section className="bg-background h-screen flex items-center">
-      <div className="max-w-5xl mx-auto flex flex-col gap-14">
-        <div className="flex flex-col-reverse gap-20 justify-center items-center lg:flex-row ">
+    <section className="bg-background min-h-screen flex items-center py-28 px-8 lg:py-48">
+      <div className="max-w-5xl mx-auto flex flex-col gap-16">
+        <div className="flex flex-col-reverse gap-16 justify-center items-center lg:flex-row ">
           <div className="space-y-7 max-w-lg flex flex-col items-center">
             <h1 className="text-4xl font-bold text-center text-primary md:text-6xl lg:text-left">
               Front-End React Developer
@@ -69,12 +69,17 @@ const Main = () => {
         </div>
 
         <div className="flex flex-col items-center flex-wrap gap-6">
-          <h2 className="text-xl font-medium border-b-[2px] text-primary border-primary pb-1">Tech Stack</h2>
+          <h2 className="text-xl font-medium border-b-[2px] text-primary border-primary pb-1">
+            Tech Stack
+          </h2>
           <div className="">
             <ul className="flex gap-5 flex-wrap justify-center">
               {techStack.map((stack) => (
-                <li key={stack.name} className="bg-white p-3 rounded-full drop-shadow-md">
-                  <img src={stack.src} alt="tech stack" className="w-8"/>
+                <li
+                  key={stack.name}
+                  className="bg-white p-3 rounded-full drop-shadow-md"
+                >
+                  <img src={stack.src} alt="tech stack" className="w-8" />
                 </li>
               ))}
             </ul>
