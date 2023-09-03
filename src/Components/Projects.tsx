@@ -23,7 +23,7 @@ const Projects = () => {
               id="project"
               className="p-4 md:p-8 flex flex-col gap-4 rounded-2xl shadow-lg "
             >
-              <div className="overflow-hidden scroll-smooth rounded-2xl bg-white h-96 shadow-lg ">
+              <div className="overflow-hidden scroll-smooth rounded-2xl bg-white h-96 shadow-2xl">
                 <img
                   src={""}
                   alt=""

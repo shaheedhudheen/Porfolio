@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="p-4 inline-block rounded-full shadow-lg">
               <FaMapLocationDot color={"#2962FF"} size={"32"} />
             </div>
-            <div className="text-center md:flex md:flex-col">
+            <div className="text-center md:flex md:flex-col md:text-left">
               <h3 className="font-bold text-lg text-primary">Location</h3>
               <p className="text-base font-medium text-secondary">
                 Kerala, India
@@ -26,7 +26,7 @@ const Contact = () => {
             <div className="p-4 inline-block rounded-full shadow-lg">
               <MdMail color={"#2962FF"} size={"32"} />
             </div>
-            <div className="text-center md:flex md:flex-col">
+            <div className="text-center md:flex md:flex-col md:text-left">
               <h3 className="font-bold text-lg text-primary">Mail</h3>
               <p className="text-base font-medium text-secondary">
                 shaheedhudheenpambalath@gmail.com
