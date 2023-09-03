@@ -1,7 +1,7 @@
 import Main from "./Main";
 import About from "./About";
 // import Projects from "./Projects";
-import Projects2 from "./Projects2";
+import Projects from "./Projects";
 import Contact from "./Contact";
 
 const Body = () => {
@@ -9,8 +9,8 @@ const Body = () => {
     <div className="">
       <Main />
       <About />
-      <Projects2/>
-      <Contact/>
+      <Projects />
+      <Contact />
     </div>
   );
 };

@@ -1,52 +1,49 @@
-import placeholder from "../assets/placeholder.png";
-import { BiLinkExternal } from "react-icons/bi";
-import { BiLogoGithub } from "react-icons/bi";
+import image from "../assets/placeholder.png";
 
 const Projects = () => {
   return (
-    //section
-    <section className="bg-background py-10">
-      {/* container */}
-      <div id="container" className="max-w-5xl mx-auto px-4 md:p-8">
-        {/* contents */}
-        <div id="project-content">
-          <h1 className="font-semibold text-lg text-center text-[#2962FF]">
+    <section id="projects" className="bg-background">
+      <div className="max-w-2xl lg:max-w-5xl mx-auto py-10 px-8 md:px-24 lg:px-8">
+        <div className="space-y-4 py-4">
+          <h3 className="font-bold text-lg text-accent text-center">
             PORTFOLIO
-          </h1>
-          <h2 className="text-2xl font-bold text-primary text-center">
+          </h3>
+          <p className="text-center font-semibold text-primary text-xl">
             Each project embarks on a unique adventure of development 🧩
-          </h2>
+          </p>
+        </div>
 
-          {/* projects list */}
-          <div id="project-list" className="grid md:p-16">
-            <div
-              id="project"
-              className="p-4 md:p-8 flex flex-col gap-4 rounded-2xl shadow-lg "
-            >
-              <div className="overflow-hidden scroll-smooth rounded-2xl bg-white h-96 shadow-2xl">
-                <img
-                  src={""}
-                  alt=""
-                  className="hover:-translate-y-1/2 transition-transform duration-[10s] "
-                />
-              </div>
-              <div className="flex flex-col items-center gap-4 py-4">
-                <h1 className="text-xl">Project 1</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam voluptates corporis laboriosam temporibus! Vitae quae
-                  officia animi eum. Praesentium, nam esse. Repellat incidunt
-                  esse rem nam sit aliquam impedit doloremque!
-                </p>
+        <div id="projects-list" className="">
+          <div
+            id="project"
+            className="p-4 shadow-lg flex flex-col h-[45rem] gap-8 rounded-2xl bg-white lg:flex-row-reverse lg:h-96"
+          >
+            <div className="overflow-hidden rounded-xl shadow-xl">
+              <img src={image} alt="" className="object-cover" />
+            </div>
 
-                <div className="flex gap-8">
-                  <a href="#">
-                    <BiLinkExternal size={32} />
-                  </a>
-                  <a href="#">
-                    <BiLogoGithub size={32} />
-                  </a>
-                </div>
+            <div className="flex flex-col gap-6 items-center">
+              <h1 className="font-bold text-xl text-primary">CAR RENTAL 🚗</h1>
+              <p className="font-medium text-justify text-secondary">
+                A car rental website is an online platform that allows users to
+                rent cars for personal or business use. The website provides an
+                interface for searching, comparing, and reserving cars.
+              </p>
+              <ul className="flex gap-2 flex-wrap justify-center">
+                <li className="px-2 py-1 bg-white drop-shadow-md rounded-md">React</li>
+                <li className="px-2 py-1 bg-white drop-shadow-md rounded-md">
+                  Typescript
+                </li>
+                <li className="px-2 py-1 bg-white drop-shadow-md rounded-md">
+                  TailwindCSS
+                </li>
+                <li className="px-2 py-1 bg-white drop-shadow-md rounded-md">React</li>
+                <li className="px-2 py-1 bg-white drop-shadow-md rounded-md">Git</li>
+              </ul>
+
+              <div className="flex gap-8 pb-4">
+                <div>CODE</div>
+                <div>Live Demo</div>
               </div>
             </div>
           </div>
@@ -57,35 +54,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-{
-  /* <div className="max-w-5xl mx-auto px-5 flex flex-col items-center gap-6">
-  <h3 className="font-semibold text-lg text-[#2962FF]">Portfolio</h3>
-  <h2 className="text-2xl font-bold text-primary text-center">
-    Each project embarks on a unique adventure of development 🧩
-  </h2>
-  <div id="project-cards">
-    <div className="h-[45rem] flex flex-col">
-      <div className="overflow-hidden p-4 object-cover">
-        <img
-          src={placeholder}
-          alt="frontpage of project"
-          className="rounded-2xl "
-        />
-      </div>
-      <div>
-        <h3>Project 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum soluta
-          nisi, qui maxime laboriosam nesciunt, provident vitae labore corporis
-          hic ad ullam. Adipisci dicta eligendi sapiente eius saepe animi
-          eveniet? Magni tempora architecto nemo accusantium doloremque maxime
-          labore velit provident fugiat consequatur mollitia illum, eum suscipit
-          nisi sapiente vero, laboriosam eligendi id atque minima, perferendis
-          similique in quibusdam non. Provident?
-        </p>
-      </div>
-    </div>
-  </div>
-</div>; */
-}
