@@ -5,7 +5,7 @@ import html from "../assets/HTML5.png";
 import css from "../assets/CSS3.png";
 import js from "../assets/JavaScript.png";
 import react from "../assets/react.png";
-import ts from "../assets/TypeScript.svg";
+import ts from "../assets/TypeScript.png";
 import tailwind from "../assets/Tailwind CSS.png";
 import git from "../assets/git.png";
 
