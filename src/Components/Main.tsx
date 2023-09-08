@@ -1,13 +1,13 @@
 import { ImGithub, ImLinkedin } from "react-icons/im";
 import dp from "../assets/95g18d.jpg";
 
-import html from "../assets/HTML5.svg";
-import css from "../assets/CSS3.svg";
-import js from "../assets/JavaScript.svg";
-import react from "../assets/react.svg";
+import html from "../assets/HTML5.png";
+import css from "../assets/CSS3.png";
+import js from "../assets/JavaScript.png";
+import react from "../assets/react.png";
 import ts from "../assets/TypeScript.svg";
-import tailwind from "../assets/Tailwind CSS.svg";
-import git from "../assets/git.svg";
+import tailwind from "../assets/Tailwind CSS.png";
+import git from "../assets/git.png";
 
 interface techStackInterface {
   src: string;
