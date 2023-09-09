@@ -1,6 +1,5 @@
 import { ImGithub, ImLinkedin } from "react-icons/im";
 import dp from "../assets/95g18d.jpg";
-
 import html from "../assets/HTML5.png";
 import css from "../assets/CSS3.png";
 import js from "../assets/JavaScript.png";
